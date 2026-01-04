@@ -1,11 +1,11 @@
-# Weather Data Integrator
+# ⛅ Weather Data Integrator
 
 ## Overview
 This project is a technical implementation of a real-time weather data retrieval system. Developed as part of my **NCC Level 3 Diploma in Computing** portfolio, it demonstrates in handling external APIs, parsing JSON data, and implementing error-handling logic in Python.
 
 The application interfaces with the OpenWeatherMap API to fetch, process, and display localized meteorological data based on user input.
 
-## Key Technical Features
+## 🔍 Key Technical Features
 
 * **REST API Integration:** Implements GET requests to retrieve live data from the OpenWeatherMap endpoint.
 * **JSON Data Parsing:** Efficiently navigates complex nested dictionaries to extract specific values (Temperature, Humidity, Wind Speed).
@@ -13,15 +13,15 @@ The application interfaces with the OpenWeatherMap API to fetch, process, and di
 * **Modular Design:** Code is structured for readability and future expansion (e.g., adding a GUI or Database logging).
 
 
-## Tech Stack
+## 🛠️ Tech Stack
 * **Language:** Python 3.x
 * **Libraries:** `requests` (HTTP library), `json` (Data handling)
 * **Source:** OpenWeatherMap API (You can use your preferable API)
 
-## Implementation Details
+## 📟 Implementation Details
 To ensure security, the API Key is managed via environment variables (or a config file) to prevent unauthorized usage.
 
-## Set up and Installation
+## 🔌  Set up and Installation
 1. Prerequisites
     Before running the script, install the required library:
     ```bash
